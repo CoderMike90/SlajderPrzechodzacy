@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%,);
+    width: 800px;
+    height: 390px;
+}
+
+.ImageBoxFirst {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ImageAfter {
+    width: 0;
+    transition: 2s;
+    overflow: hidden;
+    border-right: 10px solid #FFDD00;
+}
+
+.container:hover .ImageAfter {
+    width: 100%;
+}
+
+.container2 {
+    position: relative;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%, );
+    width: 800px;
+    height: 390px;
+}
+
+.container2:hover .ImageAfter {
+    width: 100%;
+}
+
+.ImageBoxSeccond {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
